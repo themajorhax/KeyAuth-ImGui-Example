@@ -44,9 +44,9 @@ void xxx()
 
 int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
-    std::string name = XorStr("tezzz"); // Application Name
-    std::string ownerid = XorStr("NcHVSpWL1g"); // User OwnerID
-    std::string secret = XorStr("28a057b8f892d1d23c0be574cd35b2c71073bea9ed2b8deb4a8ef9d2d2b01815"); // Application Secret
+    std::string name = XorStr(""); // Application Name
+    std::string ownerid = XorStr(""); // User OwnerID
+    std::string secret = XorStr(""); // Application Secret
     std::string version = XorStr("1.0"); // Application Version
 
     api KeyAuthApp(name, ownerid, secret, version);
